@@ -6,7 +6,7 @@ import StarBorderOutlinedIcon from '@material-ui/icons/StarBorderOutlined';
 import LabelImportantOutlinedIcon from '@material-ui/icons/LabelImportantOutlined';
 import {useHistory} from 'react-router-dom';
 
-function EmailRow({ id, subject, tag, body }) {
+function EmailRow({subject, body }) {
     const history = useHistory();
     return (
         <div onClick={() => history.push("/mail")} className="emailRow">

@@ -7,12 +7,11 @@ import DeleteIcon from "@material-ui/icons/Delete";
 import EmailIcon from "@material-ui/icons/Email";
 import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
-import LabelImportantIcon from "@material-ui/icons/LabelImportant";
 
 import { useHistory } from 'react-router-dom';
 
 
-function Mail() {
+function Mail({subject,body}) {
   const history = useHistory();
   return (
     <div className='mail'>
@@ -44,18 +43,18 @@ function Mail() {
             <MoreVertIcon />
           </IconButton>
         </div>
-        </div>
+      </div>
 
-        <div className="mail__body">
-          <div className="mail__bodyHeader">
-            <h2>Subject</h2>
-          </div>
-          <div className="mail__message">
-            <p> This is the body of the email et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut</p>
-          </div>
+      <div className="mail__body">
+        <div className="mail__bodyHeader">
+          <h2>{subject}</h2>
+        </div>
+        <div className="mail__message">
+          <p>{body}</p>
         </div>
       </div>
-      )
+    </div>
+  )
 }
 
 export default Mail;
