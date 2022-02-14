@@ -9,6 +9,21 @@ function EmailList() {
         <EmailRow 
         subject= "Hello How are you"
         body= "jbfsbshfb jbdahjdahjadhjbd adjbadbhjdahbawdhbadwwd wbhawhjbadwjhbadw adhjdawjhbadj adbhjadhadhadh ahahbhbdhbad" />
+        <EmailRow 
+        subject= "Hello How are you"
+        body= "jbfsbshfb jbdahjdahjadhjbd adjbadbhjdahbawdhbadwwd wbhawhjbadwjhbadw adhjdawjhbadj adbhjadhadhadh ahahbhbdhbad" />
+        <EmailRow 
+        subject= "Hello How are you"
+        body= "jbfsbshfb jbdahjdahjadhjbd adjbadbhjdahbawdhbadwwd wbhawhjbadwjhbadw adhjdawjhbadj adbhjadhadhadh ahahbhbdhbad" />
+        <EmailRow 
+        subject= "Hello How are you"
+        body= "jbfsbshfb jbdahjdahjadhjbd adjbadbhjdahbawdhbadwwd wbhawhjbadwjhbadw adhjdawjhbadj adbhjadhadhadh ahahbhbdhbad" />
+        <EmailRow 
+        subject= "Hello How are you"
+        body= "jbfsbshfb jbdahjdahjadhjbd adjbadbhjdahbawdhbadwwd wbhawhjbadwjhbadw adhjdawjhbadj adbhjadhadhadh ahahbhbdhbad" />
+        <EmailRow 
+        subject= "Hello How are you"
+        body= "jbfsbshfb jbdahjdahjadhjbd adjbadbhjdahbawdhbadwwd wbhawhjbadwjhbadw adhjdawjhbadj adbhjadhadhadh ahahbhbdhbad" />
     </div>
   )
 }

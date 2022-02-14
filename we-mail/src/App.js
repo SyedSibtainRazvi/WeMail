@@ -19,14 +19,16 @@ function App() {
 
         <div className='app_body'>
           <Sidebar />
-          <switch>
+
+          <Switch>
             <Route path="/mail">
               <Mail />
             </Route>
+
             <Route path="/">
               <EmailList />
             </Route>
-          </switch>
+          </Switch>
 
         </div>
       </div>
