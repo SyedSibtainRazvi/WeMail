@@ -1,0 +1,14 @@
+.emailList {
+    flex: 1;
+    margin: auto;
+    overflow: scroll;
+}
+
+.emailList::-webkit-scrollbar{
+    display: none;
+}
+
+.emailList {
+    -ms-overflow-style: none;
+    scrollbar-width:none;
+}
