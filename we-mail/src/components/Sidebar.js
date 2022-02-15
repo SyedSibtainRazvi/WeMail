@@ -16,8 +16,8 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 function Sidebar() {
     return (
         <div className='sidebar'>
-            <SidebarOption Icon={InboxIcon} title="Inbox" selected={true}/>
-            <SidebarOption Icon={AccessTimeIcon} title="Drafts" />
+            <SidebarOption Icon={InboxIcon} title="All"/>
+            <SidebarOption Icon={AccessTimeIcon} title="Draft" />
             <SidebarOption Icon={NoteIcon} title="Spam"/>
             <SidebarOption Icon={DeleteIcon} title="Trash" />
              <SidebarOption Icon={LabelImportantIcon} title="Important" />

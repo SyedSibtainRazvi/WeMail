@@ -11,7 +11,8 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import { useHistory } from 'react-router-dom';
 
 
-function Mail({subject,body}) {
+function Mail({props}) {
+  
   const history = useHistory();
   return (
     <div className='mail'>
@@ -47,10 +48,10 @@ function Mail({subject,body}) {
 
       <div className="mail__body">
         <div className="mail__bodyHeader">
-          <h2>{subject}</h2>
+          <h2>Hello</h2>
         </div>
         <div className="mail__message">
-          <p>{body}</p>
+          <p>lorem ipsum  jdhbhdahb ajhdaawuhvwa vuadhvawwa awdwaduvwhvwa awuyvdwauv</p>
         </div>
       </div>
     </div>

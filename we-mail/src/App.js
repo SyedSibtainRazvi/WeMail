@@ -29,7 +29,6 @@ function App() {
               <EmailList />
             </Route>
           </Switch>
-
         </div>
       </div>
     </Router>

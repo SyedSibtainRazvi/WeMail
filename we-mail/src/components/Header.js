@@ -8,6 +8,13 @@ import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 
 function Header() {
+  const searchParams = (event) => {
+    if (event.target.value) {
+      window.location.href = "#search=" + event.target.value;
+    } else {
+      window.location.href = "#";
+    }
+  };
   return (
     <div className='header'>
       <div className="header__left">
@@ -21,7 +28,7 @@ function Header() {
 
       <div className="header__middle">
         <SearchIcon />
-        <input placeholder="Search mail" type="text" />
+        <input placeholder="Search mail" type="text" onChange={searchParams}/>
         <ArrowDropDownIcon className="header__inputCaret" />
       </div>
 
